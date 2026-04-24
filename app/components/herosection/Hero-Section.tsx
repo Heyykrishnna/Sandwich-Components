@@ -1,5 +1,6 @@
 import React from 'react';
 import { cn } from '../../lib/utils';
+import Image from 'next/image';
 
 export default function HeroSection() {
   return (
@@ -13,7 +14,7 @@ export default function HeroSection() {
 
         <div className="p-10 size-full">
             <div className="p-10 relative size-full flex flex-col justify-between">
-                <img src="https://wallpapercave.com/wp/wp4140937.jpg" className="absolute inset-0 object-cover size-full mask-radial-from-50% mask-b-from-20% mask-t-from-90% select-none pointer-events-none" />
+                <Image src="https://wallpapercave.com/wp/wp4140937.jpg" className="absolute inset-0 object-cover size-full mask-radial-from-50% mask-b-from-20% mask-t-from-90% select-none pointer-events-none" alt="Hero Section" />
                 <nav className="flex items-center justify-between z-20 mt-2">
                     <div className="flex items-center gap-6">
                         <h2 className="tracking-tighter font-medium bg-clip-text text-transparent bg-linear-to-b from-blue-400 to-blue-800 text-lg font-bold text-shadow-lg text-shadow-blue-500/10 px-4">Elysiar</h2>
