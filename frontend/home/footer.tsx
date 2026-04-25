@@ -7,25 +7,23 @@ export function Footer() {
       id="footer-cta"
       className="mx-auto w-full max-w-384 px-4 py-8 pb-10 sm:px-6 lg:px-8"
     >
-      <div className="bg-[linear-gradient(180deg,rgba(19,19,22,0.97),rgba(9,9,10,0.99)),rgba(11,11,12,0.94)] border border-line shadow-[0_30px_80px_var(--shadow),inset_0_1px_0_rgba(255,255,255,0.04)] relative overflow-hidden rounded-4xl px-6 pt-10 sm:px-8 lg:px-10">
-        <SectionFrame />
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(255,115,0,0.18),transparent_26%),radial-gradient(circle_at_82%_86%,rgba(255,94,0,0.2),transparent_24%),linear-gradient(180deg,rgba(255,150,40,0.04),transparent_24%,transparent_76%,rgba(255,95,0,0.04))] opacity-60" />
+      <div className="border border-line shadow-[0_30px_80px_var(--shadow),inset_0_1px_0_rgba(255,255,255,0.04)] relative overflow-hidden rounded-4xl px-6 pt-10 sm:px-8 lg:px-10 [clip-path:inset(0_0_0_0_round_2rem)]">
+        <div className="absolute inset-0 bg-black" />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          src="https://res.cloudinary.com/dpod2sj9t/video/upload/v1777106170/SANDWICH-FOOTER_pdapsc.mov"
+          className="fixed inset-0 size-screen object-cover opacity-35 grayscale pointer-events-none"
+        />
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_18%_8%,rgba(255,115,0,0.18),transparent_26%),radial-gradient(circle_at_82%_86%,rgba(255,94,0,0.2),transparent_24%),linear-gradient(180deg,rgba(255,150,40,0.04),transparent_24%,transparent_76%,rgba(255,95,0,0.04))] opacity-60 mix-blend-color" />
+        <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-[#09090a] via-[#0a0a0b]/80 to-transparent" />
 
         <div data-footer-panel className="relative z-10">
-          <div className="relative before:absolute before:inset-0 before:pointer-events-none before:bg-[linear-gradient(rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.06)_1px,transparent_1px)] before:bg-size-[62px_62px] before:opacity-[0.36] rounded-[999px] bg-black/55 px-4 py-6 sm:px-6">
-            <div className="mx-auto flex max-w-4xl items-center gap-4 rounded-full border border-accent/30 bg-white/6 p-3 sm:p-4">
-              <div className="flex size-18 shrink-0 items-center justify-center rounded-full bg-accent text-2xl font-semibold text-black sm:size-22 sm:text-3xl">
-                01
-              </div>
-              <div className="text-3xl font-semibold tracking-[-0.06em] text-text sm:text-5xl lg:text-6xl">
-                Let&apos;s Get Started
-              </div>
-            </div>
-          </div>
 
           <div className="mt-12 grid gap-8 border-b border-white/10 pb-12 lg:grid-cols-[1.3fr_0.7fr_0.7fr_0.7fr]">
             <div>
-              <SectionBadge>Available for work</SectionBadge>
               <p className="text-[#ece6db]/82 mt-6 max-w-sm text-lg leading-8">
                 Elevate your digital presence with Sandwich. Let&apos;s create
                 something sharper together.
@@ -48,7 +46,7 @@ export function Footer() {
 
           <div className="text-[#ece6db]/64 mt-4 flex flex-col gap-3 border-t border-white/10 py-5 text-sm sm:flex-row sm:items-center sm:justify-between">
             <p>&copy; sandwich studio</p>
-            <p>India, 19:29:40</p>
+            <p>India, Bharat</p>
             <a href="mailto:hello@sandwich.studio" className="text-accent">
               hello@sandwich.studio
             </a>

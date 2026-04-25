@@ -34,7 +34,6 @@ export function Sponsors() {
                 <div className="rounded-3xl border border-white/8 bg-[#0a0a0b] p-4">
                   <div className="flex items-center justify-between text-xs uppercase tracking-[0.24em] text-white/52">
                     <span>{card.subtitle}</span>
-                    <span>{card.title}</span>
                   </div>
 
                   <div

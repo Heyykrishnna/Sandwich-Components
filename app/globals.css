@@ -67,8 +67,12 @@ body::before {
   inset: 0;
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
-  background-size: 92px 92px;
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+  background-size:
+    92px 92px,
+    92px 92px,
+    23px 23px;
   opacity: 0.42;
   pointer-events: none;
   z-index: 0;

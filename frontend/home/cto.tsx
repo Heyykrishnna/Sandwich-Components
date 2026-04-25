@@ -8,9 +8,6 @@ export function CTO() {
     >
       <div className="grid items-start gap-8 lg:grid-cols-[0.78fr_1.22fr]">
         <div className="border border-[rgba(20,20,22,0.12)] bg-[linear-gradient(180deg,var(--paper),var(--paper-soft))] text-[#121212] shadow-[0_28px_70px_rgba(0,0,0,0.24)] rounded-4xl p-8 sm:p-10 lg:sticky lg:top-8">
-          <SectionBadge className="border-black/10 bg-black/3 text-black before:shadow-none">
-            Available for work
-          </SectionBadge> 
           <h3 className="mt-8 text-4xl font-medium leading-[1.02] tracking-tighter text-black">
             A tighter studio direction for products that need to feel premium.
           </h3>
