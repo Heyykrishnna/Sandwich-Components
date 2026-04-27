@@ -57,7 +57,7 @@ export default function Hero() {
                 
                 {/* Code Body */}
                 <div className="p-6 sm:p-8 text-[15px] font-mono text-white/80 overflow-x-auto leading-relaxed">
-                  <p><span className="text-pink-400">import</span> {'{'} <span className="text-blue-300">ColorBends</span> {'}'} <span className="text-pink-400">from</span> <span className="text-green-300">'@components/ColorBends'</span>;</p>
+                  <p><span className="text-pink-400">import</span> {'{'} <span className="text-blue-300">ColorBends</span> {'}'} <span className="text-pink-400">from</span> <span className="text-green-300">&apos;@components/ColorBends&apos;</span>;</p>
                   <br />
                   <p><span className="text-pink-400">function</span> <span className="text-blue-300">App</span>() {'{'}</p>
                   <p className="pl-6"><span className="text-pink-400">return</span> (</p>
@@ -67,7 +67,7 @@ export default function Hero() {
                     <span className="text-[#ece6db]/60">color=</span>
                     <span className="flex items-center gap-1.5 px-2 py-0.5 rounded bg-white/5 border border-white/10 hover:bg-white/10 transition-colors cursor-text" contentEditable suppressContentEditableWarning spellCheck={false}>
                       <span contentEditable={false} className="w-3 h-3 rounded-sm bg-[#FF7114] inline-block shadow-[0_0_8px_rgba(255,113,20,0.6)] select-none"></span>
-                      <span className="text-green-300">"#FF7114"</span>
+                      <span className="text-green-300">&quot;#FF7114&quot;</span>
                     </span>
                   </div>
                   
